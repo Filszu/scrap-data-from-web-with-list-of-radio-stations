@@ -10,9 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 
+import saveToFile
 
 emails = []
-radioStations = [] #name #email #tel_nr
+radioStations_session = [] #name #email #tel_nr  --------get in this session
+radioStations_page = [] #per 1 page
 notFoundEmails = 0
 MAIN_PAGE_URL = "https://www.fmradiofree.com/"
 currPage =1
@@ -36,6 +38,7 @@ def findEmail():
     if(email!=""):
         emails.append(email)  
         print(f"Email founded {email}")
+        return email
     else:
         global notFoundEmails
         notFoundEmails+=1 
@@ -45,17 +48,47 @@ def findEmail():
 def setURL(url):
     driver.get(url)
 
-allRadioBoxes =""
-def newPage():
-    global allRadioBoxes
-
+def getStationName():
     try:
-        allRadioBoxes = driver.find_elements(By.CLASS_NAME, "mdc-grid-tile__secondary")
+        el = driver.find_element(By.CLASS_NAME, "mdc-typography--display1")
+        # print(el.text)
+        return el.text
     except:
-        time.sleep(1)
-        newPage()
+        # print("no name")
+        return None
 
-    # mdc-grid-tile__primary mdc-elevation--z4
+   
+
+def getData(): # get radio station data
+    data = [] #name #email #tel_nr
+    email = findEmail()
+    
+
+
+    if(email!="" and email!=None):
+        # data.append([name,])
+        staionName = getStationName()
+
+        data = [staionName, email]
+
+        global radioStations_page, radioStations_session
+
+        saveToFile.save(data)
+        radioStations_page.append(data)
+        radioStations_session.append(data)
+    
+
+
+def saveDataToFile_main(): #adding by 1 web
+    global radioStations_page
+    saveToFile.save(radioStations_page)
+    print("saved to main file")
+    
+    radioStations_page.clear()
+
+def saveToFile_session():
+    saveToFile.saveSession(radioStations_session)
+    print("saved session")
 
 currId = 1
 searchingActive = True
@@ -64,7 +97,7 @@ notFoundTimes = 0
 
 def findRadioBox():
     # //radio_list_li_12
-    global currId, allRadioBoxes
+    global currId
     elId=f"radio number {currId}"
     currId+=1 
     
@@ -79,7 +112,8 @@ def findRadioBox():
         radioSlectBox.click()
         time.sleep(1)
 
-        findEmail()
+        getData()
+        # findEmail()
     except:
         print(f"{elId}not found")
         global searchingActive
@@ -97,6 +131,15 @@ def nextPage():
     currPage+=1
     print(f"\n--------NEXT PAGE-----{currPage}--------")
     print(emails)
+    saveToFile.saveEmails(emails)
+    print("\n----\nThis page")
+    # saveToFile.save(radioStations_page)
+    # print(radioStations_page)
+    # saveDataToFile_main()
+    print("]\n\n***************All")
+    print(radioStations_session)
+    saveToFile_session()
+    
     global currId
     currId=0
 

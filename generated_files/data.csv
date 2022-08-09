@@ -1,9 +1,286 @@
-NAME,EMAIL,TEL
-NAME,EMAIL,TEL
-NAME,EMAIL,TEL
-NAME,EMAIL,TEL
-NAME,EMAIL,TEL
-NAME,EMAIL,TEL
-Filszu,filip@ciac.me,11111111111
----,---,---,5
-Filszu,filip@ciac.me,11111111111
+FOX News Radio live,foxnewsradio@foxnews.com
+"El Bueno, La Mala y El Feo live",bmfshow@univisionradio.com
+America's Country live,studio@americascountry.us
+Soft Rock Radio live,comments@softrockradio.net
+Chilltrax live,chill@chilltrax.com
+Dash Hip hop X live,info@dashradio.com
+Love Songs live,info@dashradio.com
+KLAX 97.9 La Raza FM live,promociones@979laraza.com
+80s 90s Hits Radio live,KTSO Totally Awesome 80s @ 100.9
+Alex Jones - Infowars.com live,support@Infowars.com
+Oldies America live,WallyJ@WallyJ.com
+60's live,info@dashradio.com
+WFSX-FM 92.5 Fox News (US Only) live,jim.schwartzel@sbroadcast.com
+Hawaiian Music Live live,aloha@hawaiianmusiclive.xyz
+100Hitz - Hot Hitz live,support@100hitz.com
+The Jazz Groove live,support@jazzgroove.org
+70's live,info@dashradio.com
+El Show de Piolín live,elshowdepiolin@elshowdepiolin.net
+Cool Oldies live,aa@doubleavo.com
+KQIE Old School 104.7 FM live,marissa.garcia@pointbroadcastingllc.com
+MSNBC live,msnbctvinfo@nbcuni.com
+WBAP News / Talk 820 AM and 96.7 FM live,comments@wbap.com
+WBLS 107.5 FM (US Only) live,info@wbls.com
+KRNB Smooth R&B 105.7 FM live,community@krnb.com
+Jazz24 live,info@jazz24.org
+"['FOX News Radio live', 'foxnewsradio@foxnews.com']","['El Bueno, La Mala y El Feo live', 'bmfshow@univisionradio.com']","[""America's Country live"", 'studio@americascountry.us']","['Soft Rock Radio live', 'comments@softrockradio.net']","['Chilltrax live', 'chill@chilltrax.com']","['Dash Hip hop X live', 'info@dashradio.com']","['Love Songs live', 'info@dashradio.com']","['KLAX 97.9 La Raza FM live', 'promociones@979laraza.com']","['80s 90s Hits Radio live', 'KTSO Totally Awesome 80s @ 100.9']","['Alex Jones - Infowars.com live', 'support@Infowars.com']","['Oldies America live', 'WallyJ@WallyJ.com']","[""60's live"", 'info@dashradio.com']","['WFSX-FM 92.5 Fox News (US Only) live', 'jim.schwartzel@sbroadcast.com']","['Hawaiian Music Live live', 'aloha@hawaiianmusiclive.xyz']","['100Hitz - Hot Hitz live', 'support@100hitz.com']","['The Jazz Groove live', 'support@jazzgroove.org']","[""70's live"", 'info@dashradio.com']","['El Show de Piolín live', 'elshowdepiolin@elshowdepiolin.net']","['Cool Oldies live', 'aa@doubleavo.com']","['KQIE Old School 104.7 FM live', 'marissa.garcia@pointbroadcastingllc.com']","['MSNBC live', 'msnbctvinfo@nbcuni.com']","['WBAP News / Talk 820 AM and 96.7 FM live', 'comments@wbap.com']","['WBLS 107.5 FM (US Only) live', 'info@wbls.com']","['KRNB Smooth R&B 105.7 FM live', 'community@krnb.com']","['Jazz24 live', 'info@jazz24.org']"
+WNYC 93.9 live,press@wnyc.org
+WXNY X96.3 (US Only) live,eagarcia@univision.net
+LOVE RADIO www.LOVE.radio live,loveradioonlylovesongs@gmail.com
+FUNKY RADIO (USA) live,write@funky.radio
+POWER 106 live,Bryhana - Power Workout Mix w/ DJ P-Jay @12p - 1p
+WHUR 96.3 FM live,PublicAffairs@whur.com
+Totally Country Radio live,ericscott@totallyhitsradiolive.com
+Classic Rock - Hits Radio live,jeff.bachmeier@hitsradio.com
+KSSE José 97.5 y 107.1 live,NO ME VUELVO A EN@MORAR
+KUSC Classical 91.5 FM KDB live,support@uscradiogroup.org
+KQED 88.5 and 89.3 FM live,forum@kqed.org
+95.5 KLOS FM live,compliance@955klos.com
+KVTO 1400 AM live,jaime@inlanguageradio.com
+WCNN 680 The Fan live,promotions@680thefan.com
+KLLI Cali 93.9 FM live,info@cali939.com
+105.9 FM WQXR live,acohen@wnyc.org
+Jus Blues Radio live,info@jusblues.org
+WGN Radio 720 AM live,comments@wgnradio.com
+KXTS Exitos 98.7 FM live,exitos@winecountryradio.net
+WLS 890 AM live,patrick.berger@cumulus.com
+WAMU 88.5 FM live,feedback@wamu.org
+Radio Puerto Rico live,raycruzsantiago@gmail.com
+Boomerang - 90's & R&B live,info@dashradio.com
+"['FOX News Radio live', 'foxnewsradio@foxnews.com']","['El Bueno, La Mala y El Feo live', 'bmfshow@univisionradio.com']","[""America's Country live"", 'studio@americascountry.us']","['Soft Rock Radio live', 'comments@softrockradio.net']","['Chilltrax live', 'chill@chilltrax.com']","['Dash Hip hop X live', 'info@dashradio.com']","['Love Songs live', 'info@dashradio.com']","['KLAX 97.9 La Raza FM live', 'promociones@979laraza.com']","['80s 90s Hits Radio live', 'KTSO Totally Awesome 80s @ 100.9']","['Alex Jones - Infowars.com live', 'support@Infowars.com']","['Oldies America live', 'WallyJ@WallyJ.com']","[""60's live"", 'info@dashradio.com']","['WFSX-FM 92.5 Fox News (US Only) live', 'jim.schwartzel@sbroadcast.com']","['Hawaiian Music Live live', 'aloha@hawaiianmusiclive.xyz']","['100Hitz - Hot Hitz live', 'support@100hitz.com']","['The Jazz Groove live', 'support@jazzgroove.org']","[""70's live"", 'info@dashradio.com']","['El Show de Piolín live', 'elshowdepiolin@elshowdepiolin.net']","['Cool Oldies live', 'aa@doubleavo.com']","['KQIE Old School 104.7 FM live', 'marissa.garcia@pointbroadcastingllc.com']","['MSNBC live', 'msnbctvinfo@nbcuni.com']","['WBAP News / Talk 820 AM and 96.7 FM live', 'comments@wbap.com']","['WBLS 107.5 FM (US Only) live', 'info@wbls.com']","['KRNB Smooth R&B 105.7 FM live', 'community@krnb.com']","['Jazz24 live', 'info@jazz24.org']","['WNYC 93.9 live', 'press@wnyc.org']","['WXNY X96.3 (US Only) live', 'eagarcia@univision.net']","['LOVE RADIO www.LOVE.radio live', 'loveradioonlylovesongs@gmail.com']","['FUNKY RADIO (USA) live', 'write@funky.radio']","['POWER 106 live', 'Bryhana - Power Workout Mix w/ DJ P-Jay @12p - 1p']","['WHUR 96.3 FM live', 'PublicAffairs@whur.com']","['Totally Country Radio live', 'ericscott@totallyhitsradiolive.com']","['Classic Rock - Hits Radio live', 'jeff.bachmeier@hitsradio.com']","['KSSE José 97.5 y 107.1 live', 'NO ME VUELVO A EN@MORAR']","['KUSC Classical 91.5 FM KDB live', 'support@uscradiogroup.org']","['KQED 88.5 and 89.3 FM live', 'forum@kqed.org']","['95.5 KLOS FM live', 'compliance@955klos.com']","['KVTO 1400 AM live', 'jaime@inlanguageradio.com']","['WCNN 680 The Fan live', 'promotions@680thefan.com']","['KLLI Cali 93.9 FM live', 'info@cali939.com']","['105.9 FM WQXR live', 'acohen@wnyc.org']","['Jus Blues Radio live', 'info@jusblues.org']","['WGN Radio 720 AM live', 'comments@wgnradio.com']","['KXTS Exitos 98.7 FM live', 'exitos@winecountryradio.net']","['WLS 890 AM live', 'patrick.berger@cumulus.com']","['WAMU 88.5 FM live', 'feedback@wamu.org']","['Radio Puerto Rico live', 'raycruzsantiago@gmail.com']","[""Boomerang - 90's & R&B live"", 'info@dashradio.com']"
+Trap City Radio live,yspbroadcasting@gmail.com
+KNBR The Sports Leader 680 AM live,sports@knbr.com
+90's Hits - Hits Radio live,jeff.bachmeier@hitsradio.com
+KPLX 99.5 The Wolf FM live,comments@995thewolf.com
+93.5 KDAY FM live,jbanks@power106.com
+80's Hits - Hits Radio live,KTSO Totally Awesome 80s @ 100.9
+Hits Radio Hip Hop / RnB live,jeff.bachmeier@hitsradio.com
+KGMZ 95.7 The Game FM (US Only) live,thegame@957thegame.com
+Hot Dance Radio live,circuitodanceradiofm@gmail.com
+Classic Rock 92.9 KISM live,kism@kism.com
+CLASSIC HITS RADIO (USA) live,write@classichits.radio
+KMRB 1430 AM live,am1430.net@gmail.com
+WWOZ New Orleans 90.7 FM live,feedback@wwoz.org
+WNYC AM 820 live,press@wnyc.org
+KJLH Radio Free 102.3 FM live,keslade@kjlhradio.com
+WBAL News Radio 1090 AM live,news@wbal.com
+Free Classic Rock Radio live,admin@freeclassicrockradio.com
+WAQI Radio Mambí 710 AM (US Only) live,raycruz@univision.net
+WFDR Streetz 94.5 FM live,streetz945atl@gmail.com
+KSFO 560 AM live,ksfostaff@yahoo.com
+More FM 98.9 live,contenidos@cbc.com.mx
+KUPD 97.9 FM (US Only) live,info@98kupd.com
+Nexus Radio Dance live,nexus@nexus.radio
+TalkRadio 790 KABC live,compliance@kabc.com
+KIWI Radio Lobo 102.9 FM live,digital@lotusbakersfield.com
+WJR NewsTalk 760 WJR live,keith.bosworth@cumulus.com
+The Rick and Bubba Show live,support@rickandbubba.com
+KKJZ KJazz 88.1 FM live,info881@kkjz.org
+KUOW 94.9 FM live,letters@kuow.org
+Oldies Hits - Hits Radio live,jeff.bachmeier@hitsradio.com
+KXL Newsradio KXL 101FM/750AM live,bruce.collins@alphamediausa.com
+Power of Worship Radio live,info@powerofworship.net
+WBGO Jazz 88.3 FM live,swilliams@wbgo.org
+Pop New York live,popnewyork1@gmail.com
+WBEZ 91.5 FM live,info@wbez.org
+KVMX La Ranchera live,kurt@lotusradio.com
+WBAV V 101.9 FM live,Bill.Schoening@bbgi.com
+Radio Jazz live,castilloj80@msn.com
+70s Great Hits live,70sgreathits@earthlink.net
+New Wave Radio live,info@newwave.radio
+KLOK La Tricolor 99.5 FM live,promociones995@gmail.com
+Country - Hits Radio live,jeff.bachmeier@hitsradio.com
+Musica Cristiana Internacional live,admin@musicacristianainternacional.com
+WYCT Cat Country 98.7 live,thecat@catcountry987.com
+WWIN Magic 95.9 FM live,hmazer@radio-one.com
+The Disco Planet live,info@thediscoplanet.com
+KHIT Exitos 107.1 FM live,vcantu@lotusfresno.com
+Sleep FM live,sleepfmradio@yahoo.com
+KKXA Classic Country 1520 live,everettpostnews@krko.com
+KING Classical King 98.1 FM live,feedback@king.org
+WKXI Kixie 107.5 FM live,stan.branson@alphamediausa.com
+Surf Shack Radio live,biff@surfshackradio.com
+Comedy - Hits Radio live,jeff.bachmeier@hitsradio.com
+WDTK The Patriot live,contact@salemdetroit.com
+TRAP RADIO TRAP.radio live,trapradioonlytrapmusic@gmail.com
+987JAMZ 24/7 HipHop N' R&B live,playmyjamz@987Jamz.com
+G Radio NY live,joselarcos@optonline.net
+WVEE V-103 (US Only) live,reggie.rouse@entercom.com
+109JAMZ 24/7 Old School HipHop N' R&B live,playmyjamz@k109jamz.com
+KSKS 93.7 Kiss Country FM live,info@ksks.com
+WDCB Jazz & Blues 90.9 FM live,info@wdcb.org
+RelaxingJazz.com - Smooth Jazz live,6. Paul Taylor - Friday@5
+WBOS ROCK 92.9 FM live,rock929@wbos.com
+Smooth Jazz live,castilloj80@gmail.com
+WCPT 820 AM live,web@newswebradio.net
+Adult Hits - Hits Radio live,jeff.bachmeier@hitsradio.com
+WWTN SuperTalk 99.7 FM live,allison.warren@cumulus.com
+Old Deep House Music live,radio@deeplink.stream
+KBLX R&B 102.9 FM live,rvelez@bonneville.com
+WAMJ Majic 107.5 and 97.5 live,dsweet@radio-one.com
+Planet Hip Hop (MRG.fm) live,info@planet.hiphop
+KLNZ La Tricolor 103.5 FM live,fsainz@entravision.com
+WDRV 97.1 The Drive live,Ten @ 10
+"ATL Blaze Old School Throwback Jamz Atlanta, GA - FadeFM.com live",russhaney@gmail.com
+KMLA La M 103.7 FM live,Gerardo@lam1037.com
+KSDS Jazz 88.3 FM live,info@jazz88.org
+Rock N Roll Oldies Radio live,howdy@rnroldies.com
+93.1 WIBC live,hello@wibc.com
+KTAR News-Talk 92.3 FM live,webmaster@ktar.com
+KXSE La Suavecita 104.3 FM live,slopez@entravision.com
+96.3 KSCS live,comments@NewCountry963.com
+WCBM Talkradio 680 AM live,mbeaven680@yahoo.com
+Journey-Radio Christian live,admin@journey-radio.com
+Rock n' Roll Radio live,info@rocknroll.radio
+homefm80.8 live,feel the music ...variety's love songs and more... @ home ka dito
+WNIS News Talk 790 AM (US Only) live,emily@wnis.com
+WPLR 99.1 PLR (US Only) live,drew.carrano@connoisseurct.com
+Alternative - Hits Radio live,jeff.bachmeier@hitsradio.com
+KCRW News live,Don't @ Me with Justin Simien
+KQMV Movin 92.5 FM (US Only) live,info@movin925.com
+Rincon Chido Radio live,RINCONCHIDORADIO@GMAIL.COM
+All Anime Radio live,ydotr100@gmail.com
+All Oldies 247 live,admin@alloldies247.com
+WBNS The Fan 97.1 FM live,promotions@971thefan.com
+Chicago's Comedy Scene Radio live,tony@chicagoscomedyscene.com
+Yacht Rock Miami live,info@yachtrockmiami.com
+93.9 WKYS (US Only) live,kentkramer@radio-one.com
+WIYY 98 Rock 97.9 FM live,studio@98online.com
+The Original Crooner Radio live,dj@croonerradio.com
+WOKV 690AM / 104.5FM NewsTalk live,news@wokv.com
+KSFV-CD Guadalupe Radio live,contigo@guadaluperadio.com
+KPFA 94.1 FM live,comments@kpfa.org
+WOSF 105.3 RnB live,Publicfilecontact@radio-one.com
+Red State Talk Radio live,feedback@redstatetalkradio.com
+Ukulele Island live,alohajoe@alohajoe.com
+WERQ-FM 92Q Jams (US Only) live,hmazer@radio-one.com
+24-7 Smooth Jazz live,nicheradio247@gmail.com
+KKOH News Talk 780 AM live,info@kkoh.com
+KAJM Mega 104.3 FM live,michael.mallace@sierrrah.com
+WBQT Hot 96.9 FM (US Only) live,smorello@hot969boston.com
+KDVA / KVVA La Suavecita 106.9 / 107.1 FM live,dapostalides@entravision.com
+560 WGAN live,wgan@560wgan.com
+Cadena Dance USA live,aplicacionesdevfree@gmail.com
+WBAI 99.5 live,omaclay@gmail.com
+KPFK 90.7 Pacifica Radio FM live,DMCATakedown@pacifica.org
+KOFX 92.3 The Fox FM live,KTSO Totally Awesome 80s @ 100.9
+WBUZ The Buzz 102.9 FM (US Only) live,dennis.gwiazdon@cromwellmedia.com
+WUOM Michigan Radio 91.7 live,schram@umich.edu
+KNAI La Campesina 101.9 FM live,bill.barquin@chavezfoundation.org
+WXRV 92.5 The River live,info@wxrv.com
+WSJF-DB Smooth Jazz Florida live,Doug@webnetradio.com
+WPEG Power 97.9 FM (US Only) live,carolina.street@power98fm.com
+WOLD- Oldies Radio live,wold.rocks@gmail.com
+WGRF 97 Rock live,Jim.riley@cumulus.com
+The Great American Songbook Radio Station live,contact@greatamericansongbook.info
+Radio Motown live,info@radio-motown.com
+WYOO NewsTalk 101 live,feedback@newstalk101.com
+Radio La Rugidora live,elweroherrera@gmail.com
+VCY America Christian Radio live,vcy@vcyamerica.org
+WAYE La Jefa 98.3 live,info@lajefa983.com
+WDEF / WUUQ Classic Country Q 97.3 & Q 99.3 FM live,bbarker@wdefradio.com
+WBVX Classic Rock 92.1 FM live,info@classicrock921fm.com
+Fiesta Mix Radio live,extravagante88@gmail.com
+Radio QDX live,radioqdx@usa.com
+WRJR Real Jazz Radio live,wrjrjamz@gmail.com
+WWOZ 2 New Orleans 90.7 FM live,feedback@wwoz.org
+WJOX JOX 94.5 FM live,wjox945@gmail.com
+WTOS Pure Rock 105.1 FM live,markwhite@blueberrybroadcasting.com
+WKDF 103.3 Country live,Marie.Miscia@cumulus.com
+KCRW-HD2 Eclectic 24 live,Don't @ Me with Justin Simien
+EDM Sessions live,radio@edmsessions.com
+WPFW 89.3 FM live,membership@wpfw.org
+WKQX Q 101.1 FM live,101wkqx@101wkqx.com
+KPCZ Pure Country 106.7 FM live,dj@purecountry1067.com
+Hard Rock Radio live,hrradio.net@gmail.com
+WWHM Old Skool 93.3 FM live,ray_handel@commbroadcasters.com
+KAZG Oldies 92.7 FM & 1440 AM live,info@kazg1440.com
+KXKL Kool 105 FM live,bozo@kool105.com
+KOKY 102.1 FM live,gena.wilfong@cumulus.com
+Guerrilla Radio live,guerrilla.jw@gmail.com
+WBEN Ben FM 95.7 (US Only) live,questions@957benfm.com
+KSEQ Q97.1 FM live,mgunn@lotusfresno.com
+Free FM Classics USA live,info@freefmworld.com
+Elevated Radio- Christian Hit Station live,elevatedjamz@gmail.com
+WUNC / WFSS / WUND / WUNW - 91.5 / 91.9 / 88.9 / 91.1 FM live,wunc@wunc.org
+KUAZ / KUAS / KUAT AZPM/NPR live,mpaul@azpm.org
+Bott Radio Network live,comments@bottradionetwork.com
+Oldies For The Oldies live,9. Thomas Wayne @ the DeLons - Tragedy
+KDKB Alt AZ 93.3 FM live,skaiser@hubbardradio.com
+WPRT 102.5 The Game live,ryan.porth@cromwellmedia.com
+KZCE The Beat 101.1 FM live,danielle.martinez@sierrah.com
+WLZL El Zol 107.9 FM live,tony.guernica@entercom.com
+KKNT 960 AM live,info@960thepatriot.com
+WJGO 102.9 Bob FM live,tr@rendabroadcasting.com
+KHPR Hawaii Public Radio 88.1 FM live,mail@hawaiipublicradio.org
+Country 97.1 Hank FM live,cbirky@indy.emmis.com
+WNVR Polskie Radio 1030 AM live,contact@polskieradio.com
+Dilemaradio - Hip Hop Music live,info@dilemaradio.com
+J99Jams WJPC FM Chicago live,wjpcfmchicago@gmail.com
+KNSS NewsRadio 1330 AM live,comments@knssradio.com
+98.8 FM Gospel Radio live,info@98fmradio.com
+WYUU 92.5 Maxima FM live,nandydavila1@gmail.com
+Free FM USA live,info@freefmradio.net
+KLRZ ESPN 100.3 FM live,jerryg@klrzfm.com
+WARH 106.5 The Arch live,webmaster@1065thearch.com
+KABZ The Buzz 103.7 FM live,sara@1037thebuzz.com
+Moody Radio Majesty Radio live,moodyradio@moody.edu
+WHTT Classic Hits 104.1 FM live,whtt@whtt.com
+KINT La Suavecita 93.9 FM live,NO ME VUELVO A EN@MORAR
+WWTC AM 1280 The Patriot live,stevesmit@salemtc.com
+KDKS Hot Jamz 102.1 FM live,Jab @ Nite with Marvin “Jabber Jaws” Williams
+WXFL KIX 96 Country FM live,fletch@kix96country.com
+WPLM Easy 99.1 live,sales@easy991.com
+Old Soulful House Music live,radio@deeplink.stream
+KWPZ Praise 106.5 live,comments@praise1065.com
+Tech House RadioSpinner live,air@radiospinner.com
+WNPR (Connecticut Public Radio) live,wnprinfo@wnpr.org
+WIOW 102.3 DB - WOW! Radio live,info@1023wowradio.com
+KNUS News Talk 710 AM live,salemdenver.digital@gmail.com
+WUSF Public Media live,social@wusf.org
+Swing City Radio live,swingcityradio@gmail.com
+KUMU 94.7 FM live,kumu@kumu.com
+104.1 WDLT live,nikki.dmarks@cumulus.com
+WKSU Folk Alley 89.7 FM live,linda@folkalley.com
+KSEG The Eagle 96.9 FM live,justine.mccomb@entercom.com
+WUHT Hot 107.7 live,bill.gentry@cumulus.com
+WCTK Cat Country 98.1 live,providencepromotions@hallradio.net
+El Bloke Radio live,elblokeradio@gmail.com
+Praise 106.1 FM live,hmazer@radio-one.com
+Party 101.9 Radio live,studio@party1019.com
+WJPT Sunny 106.3 live,adam.star@bbgi.com
+WACV News Talk 93.1 live,rpeters@bluewaterbroadcasting.com
+That Metal Station live,Thatmetalstationmusic@gmail.com
+KSOC Majic 94.5 FM live,sblanton@radio-one.com
+WOFX 92.5 The Fox live,marty.bender@cumulus.com
+WZRR/WAPI Talk 99.5 live,matt@talk995.com
+94.3 WYBC-FM (US Only) live,drew.carrano@connoisseurct.com
+ZonaSalsa Salsa De Verdad! live,Date Cuenta@ (1982)
+WNOB 93.7 BOB FM live,Ziggy Stardust (LIVE @ Welcome to the Black
+WQKI Old Skool 102.9 live,haley_gulley@commbroadcasters.com
+KJFX 95.7 The Fox FM live,carter@957thefox.com
+KORE 1050 AM & 95.7 FM - Fox Sports Eugene live,info@foxsportseugene.com
+KFNX 1100 AM live,operations@1100kfnx.com
+KAYO Classic Country 100.9 FM (US Only) live,roxi@classiccountry1009.com
+Reggae Hype Radio live,hypereggae@gmail.com
+WEBE108 live,kristin.okesson@connoisseurct.com
+WFXC / WFXK Foxy 107.1 / 104.3 FM (US Only) live,gweiss@radio-one.com
+The Roots live,john@theroots.fm
+California Remix live,californiaremixofficial@gmail.com
+WYPR HD3 Classical Music live,loliver@wypr.org
+Radio G live,djrorrony@gmail.com
+KIMN Mix 100.3 FM live,tj.kizuka@kseradio.com
+The Mellow Sound live,knxfm@radiocompany.net
+WVEI SportsRadio 103.7 WEEI live,publicfileinfo@entercom.com
+Radio El Compa Froy live,radioelcompafroy@gmail.com
+Classic Oldies WMTR live,Mark.Mitchell@bbgi.com
+KPSL La Ley 96.5 FM live,greg@lotusbakersfield.com
+Atravankado Radio live,Jezsanchez78@gmail.com
+WONE 97.5 FM live,smiller@wone.net
+WJJK Classic Hits 104.5 FM live,info@1045wjjk.com
+KHKK 104.1 The Hawk FM live,thehawk@104thehawk.com
+WWNO / KTLN - 89.9 / 90.5 FM live,comments@wwno.org
+WPBB 98.7 The Shark live,kamikaze@987theshark.com
+WMVY mvyradio live,info@MVYRADIO.org
+Lighthouse Christian Radio live,lighthouse@shbcmilwaukee.com
+WLXC 103.1 Kiss FM live,Jessica.Frank@cumulus.com
