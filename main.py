@@ -132,7 +132,7 @@ def findRadioBox():
         global notFoundTimes
         notFoundTimes+=1
 
-        if(notFoundTimes>150):
+        if(notFoundTimes>15000):
             searchingActive = False
 
     # global currId
