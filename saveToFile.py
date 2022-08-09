@@ -20,7 +20,7 @@ def save(data=[0,0,0]):
 def greet():
     print('hello')
 
-def saveEmails(data=[0,0,0]):
+def saveEmails(data):
     try:
         with open('generated_files/emails.csv', 'a+', newline='') as file:
             writer = csv.writer(file)

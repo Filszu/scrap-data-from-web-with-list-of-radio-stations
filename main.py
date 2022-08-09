@@ -17,7 +17,7 @@ radioStations_session = [] #name #email #tel_nr  --------get in this session
 radioStations_page = [] #per 1 page
 notFoundEmails = 0
 MAIN_PAGE_URL = "https://www.fmradiofree.com/"
-currPage =1
+currPage =None
 currPageUrlTemplate="https://www.fmradiofree.com/?page="
 resultsperPage = 60
 
@@ -27,7 +27,18 @@ driver.implicitly_wait(30)
 
 # example url https://www.fmradiofree.com/hawaiian-music-live
 
+def inputStartingPageNum():
+    global currPage
+    try:
 
+        currPage = int(input("gimmie starting page index: "))
+    except:
+        currPage=0
+        print("u are fucking stupid")
+
+
+if currPage==None:
+    inputStartingPageNum()
 
 def findEmail():
 
@@ -38,6 +49,7 @@ def findEmail():
     if(email!=""):
         emails.append(email)  
         print(f"Email founded {email}")
+        saveToFile.saveEmails([email," "])
         return email
     else:
         global notFoundEmails
@@ -131,7 +143,7 @@ def nextPage():
     currPage+=1
     print(f"\n--------NEXT PAGE-----{currPage}--------")
     print(emails)
-    saveToFile.saveEmails(emails)
+    # saveToFile.saveEmails(emails)
     print("\n----\nThis page")
     # saveToFile.save(radioStations_page)
     # print(radioStations_page)
