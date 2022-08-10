@@ -12,6 +12,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 
 import saveToFile
+import config
 
 
 emails = []
@@ -32,16 +33,8 @@ def inputStartDomain():
     global currPageUrlTemplate
 
     # "https://www.fmradiofree.com/?page="
-    domains = [
-        "https://www.fmradiofree.com",
-        "https://www.radio-australia.org/",
-        "www.canli-radyo-dinle.com",
-        "https://www.radio-uk.co.uk/",
-        "https://www.internetradio-schweiz.ch/",
-        "https://www.radio-norge.org/"
-        
+    domains = config.getWebsites()
 
-    ]
     print("\navaible domains: ")#\033[92m'+
     i=0
     for x in domains:   
@@ -246,5 +239,6 @@ while(searchingActive==True):
 
 
 print(emails)
+print(f"\n\nENDED at: {currPage}")
 input("press any key to continue...")
 
