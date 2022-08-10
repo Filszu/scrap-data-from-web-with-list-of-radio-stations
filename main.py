@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
+from os import system
 
 # WAIT WEB
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,20 +13,65 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 import saveToFile
 
+
 emails = []
 radioStations_session = [] #name #email #tel_nr  --------get in this session
 radioStations_page = [] #per 1 page
 notFoundEmails = 0
-MAIN_PAGE_URL = "https://www.fmradiofree.com/"
-currPage =None
-currPageUrlTemplate="https://www.fmradiofree.com/?page="
+# to config
+currPage=None
+currPageUrlTemplate=None
+# ------
 resultsperPage = 60
 
 
-driver = webdriver.Chrome("webDriver/chromedriver.exe")
-driver.implicitly_wait(30)
+
 
 # example url https://www.fmradiofree.com/hawaiian-music-live
+def inputStartDomain():
+    global currPageUrlTemplate
+
+    # "https://www.fmradiofree.com/?page="
+    domains = [
+        "https://www.fmradiofree.com",
+        "https://www.radio-australia.org/",
+        "www.canli-radyo-dinle.com",
+        "https://www.radio-uk.co.uk/",
+        "https://www.internetradio-schweiz.ch/",
+        "https://www.radio-norge.org/"
+        
+
+    ]
+    print("\navaible domains: ")#\033[92m'+
+    i=0
+    for x in domains:   
+
+        print(f"{i} : {x}")
+        i+=1
+    
+    selectedDomain = ""
+    try:
+        num = int(input("gimmie domain index: "))
+        selectedDomain = domains[num]
+    except:
+        selectedDomain=domains[0]
+        print("u are fucking stupid")
+
+    #-------
+    title = "seraching web:: "+selectedDomain+"  [Filszu searching emails engine]"
+    
+    system("title " + title)
+    currPageUrlTemplate = f"{selectedDomain}?page="
+    #--------
+
+    print(f'''=============================
+    STARTING AT:
+    {currPageUrlTemplate}\n
+    =============================''')
+    # \033[0m'
+
+    
+    
 
 def inputStartingPageNum():
     global currPage
@@ -36,9 +82,13 @@ def inputStartingPageNum():
         currPage=0
         print("u are fucking stupid")
 
-
+if currPageUrlTemplate==None:
+    inputStartDomain()
 if currPage==None:
     inputStartingPageNum()
+
+
+
 
 def findEmail():
 
@@ -159,24 +209,28 @@ def nextPage():
 
 print("\n-------------------")
 
-
-driver.get(MAIN_PAGE_URL)
+driver = webdriver.Chrome("webDriver/chromedriver.exe")
+driver.implicitly_wait(30)
+driver.get(currPageUrlTemplate)
 
 while(searchingActive==True):
 
-    if(currId>resultsperPage):
-        nextPage()
-        
-        
-    setURL(f"{currPageUrlTemplate}{currPage}")
-    # time.sleep(1)
-    # newPage()
-    # myElem = WebDriverWait(browser, delay).until(EC.presence_of_element_located((By.ID, 'IdOfMyElement')))
+    try:
+        if(currId>resultsperPage):
+            nextPage()
+            
+            
+        setURL(f"{currPageUrlTemplate}{currPage}")
+        # time.sleep(1)
+        # newPage()
+        # myElem = WebDriverWait(browser, delay).until(EC.presence_of_element_located((By.ID, 'IdOfMyElement')))
 
-    # myElem = WebDriverWait(Driver, 3).until(EC.presence_of_element_located((By.TAG_NAME,'body')))
-    time.sleep(1)
-    findRadioBox()
-    time.sleep(1)
+        # myElem = WebDriverWait(Driver, 3).until(EC.presence_of_element_located((By.TAG_NAME,'body')))
+        time.sleep(1)
+        findRadioBox()
+        time.sleep(1)
+    except:
+        continue
     
 
 # page_source = driver.page_source
