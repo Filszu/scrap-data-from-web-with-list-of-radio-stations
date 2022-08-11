@@ -153,7 +153,7 @@ notFoundTimes = 0
 def findRadioBox():
     # //radio_list_li_12
     global currId
-    elId=f"radio number {currId}"
+    elId=f"radio num {currId} / [p: {currPage}]:"
     currId+=1 
     
     try:
@@ -223,6 +223,7 @@ while(searchingActive==True):
         findRadioBox()
         time.sleep(1)
     except:
+        print(f"Errrorrr on page {currPage}")
         continue
     
 
